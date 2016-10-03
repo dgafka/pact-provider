@@ -1,0 +1,7 @@
+/.idea/
+/vendor/
+/bin/
+/tests/testcases/v2/*
+!/tests/testcases/v2/.gitkeep
+/tests/testcases/v3/*
+!/tests/testcases/v3/.gitkeep

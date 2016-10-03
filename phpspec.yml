@@ -1,0 +1,4 @@
+suites:
+    default:
+        namespace: PactPHP
+        psr4_prefix: PactPHP

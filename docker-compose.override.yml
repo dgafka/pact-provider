@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  development:
+    build: "."
+    volumes:
+      - "$PWD:/data"
+      - "$HOME/.ssh:/var/www/.ssh"
+    working_dir: "/data"
+    user: "1000:1000"
+    command: "sleep 99999"
